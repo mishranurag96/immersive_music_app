@@ -81,6 +81,7 @@ input {
 .main .content {
     flex:1;
     background-color: #1f1f1f;
+    border-radius: 22px;
 }
 
 .main footer {
