@@ -206,10 +206,13 @@
                 song.find('.song-album').text(obj.album);
                 song.find('.song-length').text(obj.duration);
                 addSongNameClickEvent(obj , i+1)
-                 //initializing the data tables
-                $('#songs').DataTable()
+                
                  
             }
+             //initializing the data tables
+                $('#songs').DataTable({
+                    paging :false
+                });
 
             //updating the time on progress bar
                 updateCurrentTime(); 

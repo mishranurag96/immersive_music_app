@@ -68,6 +68,7 @@ input {
     color: white;
     background:url("img/back.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .main header {
@@ -234,7 +235,8 @@ table.dataTable tbody tr {
 #songs_filter input {
     width: 400px;
     margin-bottom: 1rem;
-    font-size: 16px;
+    font-size: 15px;
+    
 }
 .player-buttons .fa {
     margin-right: 2rem;
