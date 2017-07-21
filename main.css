@@ -76,6 +76,7 @@ input {
     background-color: #282828;
     padding: 1rem;
     color: #FFF;
+    opacity: 0.7;
 }
 
 .main .content {
@@ -88,6 +89,7 @@ input {
     height: 80px;
     background-color: #282828;
     padding-top: 1rem;
+    opacity: 0.8;
 }
 
 .player-buttons {
@@ -251,4 +253,7 @@ td:hover{
     transition: 1s; 
 
     color: green;
+}
+@media screen and (max-width: 768px){
+    
 }
