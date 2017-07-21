@@ -17,7 +17,7 @@ body {
 h1 {
     font-size: 50px;
     border: 0;
-    margin-top: -100px;
+    /*margin-top: -50px;*/
     font-family: helvetica;
 }
 
@@ -255,5 +255,33 @@ td:hover{
     color: green;
 }
 @media screen and (max-width: 768px){
-    
+    /*.hide{
+        display: none;
+    }
+    .song-artist{
+        display: none;
+    }
+    .song-album{
+       display: none;
+    }
+    .song-length{
+        display: none;
+    }
+    .song-name{
+        float: left;
+    }
+    input[type=search]{
+        display: none;
+    }*/
+    footer{
+        bottom: 0px;
+        bottom: fixed;
+        
+    }
+}
+input{
+    outline: none;
+}
+button{
+    outline: none;
 }

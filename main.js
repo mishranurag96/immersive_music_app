@@ -212,7 +212,10 @@
              //initializing the data tables
                 $('#songs').DataTable({
                     paging :false
+                    
                 });
+               
+
 
             //updating the time on progress bar
                 updateCurrentTime(); 
@@ -220,6 +223,7 @@
                 updateCurrentTime();
                 },1000);
              }
+             
 
 
               // //for disabling the default function of data tables of going on next page etc.we want all the song in same list
